@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |x, y|
-    x
+    x.first
   end
+  x
 end
